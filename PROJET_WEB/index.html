@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>CleanHome — Accueil</title>
+</head>
+<body>
+<!-- Inline SVG sprite to ensure icons render in file:// context -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="20 6 9 17 4 12"/>
+  </symbol>
+  <symbol id="i-quality" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2l3 6 6 .9-4.5 4.4 1 6-5.5-3-5.5 3 1-6L3 8.9 9 8z"/>
+  </symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+  </symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+  </symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.59 2.61a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.47-1.11a2 2 0 0 1 2.11-.45c.84.27 1.71.47 2.61.59A2 2 0 0 1 22 16.92z"/>
+  </symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/>
+  </symbol>
+  <symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+  </symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+  </symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2.7V12h2.7V9.7c0-2.7 1.6-4.2 4-4.2 1.2 0 2.5.2 2.5.2v2.7h-1.4c-1.4 0-1.8.9-1.8 1.8V12h3l-.5 2.9h-2.5v7A10 10 0 0 0 22 12z"/>
+  </symbol>
+  <symbol id="i-twitter" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.38 8.63 8.63 0 0 1-2.73 1.04 4.28 4.28 0 0 0-7.29 3.9 12.14 12.14 0 0 1-8.81-4.47 4.28 4.28 0 0 0 1.33 5.72 4.27 4.27 0 0 1-1.94-.54v.05a4.28 4.28 0 0 0 3.43 4.2 4.3 4.3 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.97A8.6 8.6 0 0 1 2 19.54a12.13 12.13 0 0 0 6.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.19 0-.38-.01-.57A8.7 8.7 0 0 0 22.46 6z"/>
+  </symbol>
+</svg>
+<header>
+ <div class="container nav">
+  <a class="brand" href="index.html"><span class="brand-badge">CH</span>CleanHome</a>
+  <nav class="nav-links">
+   <a href="index.html">Accueil</a>
+   <a href="services.html">Services</a>
+   <a href="apropos.html">À propos</a>
+   <a href="avis.html">Avis</a>
+   <a href="contact.html">Contact</a>
+  </nav>
+  <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+ </div>
+</header>
+<main class="hero">
+ <section class="container hero-inner">
+  <div class="hero-card">
+   <h1>Réservez un service de ménage simplement</h1>
+   <p>Pour particuliers et entreprises. Fiable, rapide et soigné.</p>
+   <a class="btn" href="services.html">Demander un service</a>
+  </div>
+  <img src="assets/img/hero-clean.png" alt="Illustration d'un service de ménage CleanHome" class="img-hero">
+  <div class="grid cards">
+   <div class="card reveal"><h3 class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-quality"></use></svg> Qualité</h3><p>Équipe formée et matériel adapté.</p></div>
+   <div class="card reveal"><h3 class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg> Flexibilité</h3><p>Créneaux au choix, intervention rapide.</p></div>
+   <div class="card reveal"><h3 class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"></use></svg> Confiance</h3><p>Professionnels vérifiés et assurés.</p></div>
+  </div>
+ </section>
+ <section class="section">
+  <div class="container center">
+   <h2 class="section-title">Pourquoi CleanHome ?</h2>
+   <p class="lead">Un service doux et efficace, pensé pour votre confort.</p>
+   <div class="grid cards" style="margin-top:1.25rem">
+    <div class="card"><h3>1. Choisissez</h3><p>Sélectionnez une prestation et un créneau.</p></div>
+    <div class="card"><h3>2. Réservez</h3><p>Remplissez le formulaire en 1 minute.</p></div>
+    <div class="card"><h3>3. Détendez-vous</h3><p>Nos pros s’occupent du reste.</p></div>
+   </div>
+  </div>
+ </section>
+ <section class="section" id="temoignages">
+  <div class="container">
+   <h2 class="section-title">Ils nous font confiance</h2>
+   <p class="lead">Quelques avis de nos clients satisfaits.</p>
+   <ul id="testimonialsList" class="grid testimonials"></ul>
+  </div>
+ </section>
+ <section class="section" id="faq">
+  <div class="container">
+   <h2 class="section-title">Questions fréquentes</h2>
+   <div class="faq">
+    <div class="faq-item">
+     <button class="faq-question" aria-expanded="false">Comment se déroule une réservation ?</button>
+     <div class="faq-answer"><p>Choisissez un créneau, validez vos informations et nous confirmons votre intervention.</p></div>
+    </div>
+    <div class="faq-item">
+     <button class="faq-question" aria-expanded="false">Les intervenants sont-ils assurés ?</button>
+     <div class="faq-answer"><p>Oui, tous nos intervenants sont salariés, formés et couverts par notre assurance.</p></div>
+    </div>
+    <div class="faq-item">
+     <button class="faq-question" aria-expanded="false">Puis-je annuler ou déplacer ?</button>
+     <div class="faq-answer"><p>Vous pouvez annuler ou reprogrammer sans frais jusqu’à 24h avant l’intervention.</p></div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <section class="section alt">
+  <div class="container">
+   <h2 class="section-title">Nos chiffres clés</h2>
+   <div class="stats">
+    <div class="stat reveal">
+     <div class="num">1.5k+</div>
+     <div class="label with-icon"><svg class="icon" aria-hidden="true"><use href="#i-quality"></use></svg> Clients satisfaits</div>
+    </div>
+    <div class="stat reveal">
+     <div class="num">8k+</div>
+     <div class="label with-icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg> Interventions</div>
+    </div>
+    <div class="stat reveal">
+     <div class="num">4.8/5</div>
+     <div class="label with-icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"></use></svg> Note moyenne</div>
+    </div>
+    <div class="stat reveal">
+     <div class="num">10+</div>
+     <div class="label with-icon"><svg class="icon" aria-hidden="true"><use href="#i-map"></use></svg> Villes couvertes</div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <div class="cta-band">
+  <div class="container cta-in">
+   <div class="cta-title with-icon"><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg> Prêt·e à retrouver une maison impeccable ?</div>
+   <a class="btn btn-dark" href="services.html">Réserver maintenant</a>
+  </div>
+ </div>
+</main>
+<footer>
+ <div class="container footer-grid">
+  <div>
+   <a class="brand" href="index.html"><span class="brand-badge">CH</span>CleanHome</a>
+   <p class="footer-note" style="margin-top:.5rem">Votre ménage simple, fiable et soigné.</p>
+  </div>
+  <div>
+   <h4>Navigation</h4>
+   <ul class="footer-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="avis.html">Avis</a></li>
+    <li><a href="contact.html">Contact</a></li>
+   </ul>
+  </div>
+  <div>
+   <h4>Contact</h4>
+   <ul class="footer-links">
+    <li class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg> 06 23 45 67 89</li>
+    <li class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg> contact@cleanhome.test</li>
+    <li class="with-icon"><svg class="icon" aria-hidden="true"><use href="#i-map"></use></svg> Agadir, Maroc</li>
+   </ul>
+  </div>
+  <div>
+   <h4>Suivez-nous</h4>
+   <div class="socials">
+    <a href="#" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"></use></svg></a>
+    <a href="#" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="#i-facebook"></use></svg></a>
+    <a href="#" aria-label="Twitter"><svg class="icon" aria-hidden="true"><use href="#i-twitter"></use></svg></a>
+   </div>
+   <a class="btn" style="margin-top:1rem" href="contact.html">Nous contacter</a>
+  </div>
+ </div>
+ <div class="container footer-bottom">
+  <div class="footer-note">© <span id="year"></span> CleanHome — Projet réalisé par l’équipe de développement</div>
+ </div>
+</footer>
+<button id="backToTop" aria-label="Retour en haut">↑</button>
+<script src="assets/js/script.js" defer></script>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+
+</body>
+</html>
